@@ -2,16 +2,88 @@
 
 <html>
 
-<body>
-	{{name_text}}
-</body>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
 
-<footer>
-<p>Resources</p>
-<ul>
-	<li> Harris County Housing Authority (713) 578-2100 </li>
-	<li> U.S. Department of Housing and Urban Development (713) 718-3199</li>
-</ul>
-</footer>
+	<body>
+
+		<div class="container-fluid">
+  			<div class="row">
+    			<div class="col-md-3 ml-md-auto" style="background-color:#bde4f7;">
+    			</div>
+    			<div class="col-sm" style="height:720px;">
+    				<p style="margin-top:200px; margin-left: -200px; font-size: 60px;">
+    					<b>Affordable</b>
+    					<p></p>
+    					<b style="font-size: 60px; margin-left: -100px;">housing</b>
+    					<p></p>
+    					<b style="font-size: 60px;">for </b>
+    					<b style="font-size: 60px;">all.</b>
+    				</p>
+    			</div>
+  			</div>
+		</div>
+		{{phone_number}}
+		{{page_html}}
+		<p></p>
+		<div class="row">
+			<div class="col text-center">
+				<img src={{house_pic[0]}} width="256" height="256">
+				<p>(713) {{phone_number[0]}}</p>
+				<p>Postal Code: {{postal_code[0]}}</p>
+			</div>
+			<div class="col text-center">
+			  	<img src={{house_pic[1]}} width="256" height="256">
+				<p>(713) {{phone_number[1]}}</p>
+				<p>Postal Code: {{postal_code[1]}}</p>
+			</div>
+			<div class="col text-center">
+			  	<img src={{house_pic[2]}} width="256" height="256">
+				<p>(713) {{phone_number[2]}}</p>
+				<p>Postal Code: {{postal_code[2]}}</p>
+			</div>
+			<div class="w-100"></div>
+			<div class="col text-center">
+			  	<img src={{house_pic[3]}} width="256" height="256">
+				<p>(713) {{phone_number[3]}}</p>
+				<p>Postal Code: {{postal_code[3]}}</p>
+			</div>
+			<div class="col text-center">
+			  	<img src={{house_pic[4]}} width="256" height="256">
+				<p>(713) {{phone_number[4]}}</p>
+				<p>Postal Code: {{postal_code[4]}}</p>
+			</div>
+			<div class="col text-center">
+			  	<img src={{house_pic[5]}} width="256" height="256">
+				<p>(713) {{phone_number[5]}}</p>
+				<p>Postal Code: {{postal_code[5]}}</p>
+			</div>
+			<div class="w-100"></div>
+			<div class="col text-center">
+			  	<img src={{house_pic[6]}} width="256" height="256">
+				<p>(713) {{phone_number[6]}}</p>
+				<p>Postal Code: {{postal_code[6]}}</p>
+			</div>
+			<div class="col text-center">
+			  	<img src={{house_pic[7]}} width="256" height="256">
+				<p>(713) {{phone_number[7]}}</p>
+				<p>Postal Code: {{postal_code[7]}}</p>
+			</div>
+			<div class="col text-center">
+			  	<img src={{house_pic[8]}} width="256" height="256">
+				<p>(713) {{phone_number[8]}}</p>
+				<p>Postal Code: {{postal_code[8]}}</p>
+			</div>
+		</div>
+	</body>
+
+	<footer>
+	<p>Resources</p>
+	<ul>
+		<li> Harris County Housing Authority (713) 578-2100 </li>
+		<li> U.S. Department of Housing and Urban Development (713) 718-3199</li>
+	</ul>
+	</footer>
 
 </html>
